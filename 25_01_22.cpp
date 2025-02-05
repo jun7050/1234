@@ -272,26 +272,314 @@
 //	printf("%d", result);
 //	return 0;
 //}
-#include <stdio.h>
+
+
+//#include <stdio.h>
+//int main()
+//{
+//	int num,ten, one;
+//	for (num = 1; num <= 50; num++) {
+//		ten = num / 10;
+//		one = num % 10;
+//		if ((ten && ten % 3 == 0) || (one % 3 == 0 && one)) {
+//			printf("%d\n", num);
+//		}	
+//		
+//	}
+//	return 0;
+//}
+//
+
+//#include<stdio.h>
+//int main()
+//{
+//	int number;
+//	printf("100under");
+//	for (number = 1; (number * number) <= 100; number++) {
+//		printf("%d\n", number * number);
+//	}
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int num;
+//	printf("100 under 7mult");
+//	for (num = 7; num < 100; num += 7) {
+//		printf("%d\n", num);
+//	}
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	char input;
+//	for (;;) {
+//		scanf("%c", &input);
+//		switch (input)
+//		{
+//		case 's': printf("start"); break;
+//		case 'e': printf("exit"); return 0;
+//
+//		
+//		}
+//		return 0;
+//	}
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	printf("mlut");
+//	for (int num = 10, ex = num - 1; ex; num *= ex, ex--) {
+//		printf("%d\n", num);
+//	}
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//
+//{
+//	int count;
+//	for (count = 0; count < 5; count++) {
+//		printf("%d\n", count);
+//	}
+//	return 0;
+//}
+
+//#include<stdio.h>
+//int main() {
+//	int num;
+//	for (num = 11; num <= 200; num += 11) {
+//		printf("%d\n", num);
+//	}
+//	return 0;
+//}
+
+//#include<stdio.h>
+//int main()
+//{
+//	float sqLine;
+//	for (sqLine = 0.1; sqLine*4 <= 21; sqLine+=0.1)
+//	{
+//		printf("%.1f\n", sqLine);
+//	}
+//	return 0;
+//}
+
+//#include<stdio.h>
+//int main()
+//{
+//	int mc = 1;
+//	int st = 1;
+//	/*printf("%d반 %d번\n", mc, st); st++;
+//	printf("%d반 %d번\n", mc, st); st++;
+//	printf("%d반 %d번\n", mc, st); st++;
+//
+//	mc++; st = 1;
+//	printf("%d반 %d번\n", mc, st); st++;
+//	printf("%d반 %d번\n", mc, st); st++;
+//	printf("%d반 %d번\n", mc, st); st++;*/
+//
+//	for (st = 1; st <= 3; st++)
+//	{
+//		printf("%d반 %d번\n", mc, st);
+//	}
+//	mc++;
+//	for (st = 1; st <= 3; st++)
+//	{
+//		printf("%d반 %d번\n", mc, st);
+//	}
+//
+//	return 0;
+//}
+
+//#include<stdio.h>
+//int main()
+//{
+//	int num_1 =1,num_2=1;
+//	for (num_2 = 2; num_2 <= 9; num_2++) {
+//		for (num_1 = 1; num_1 <= 9; num_1++) {
+//			printf("%d x %d = %d\n", num_2, num_1, num_1 * num_2);
+//		}
+//	}
+//	return 0;
+//
+//}
+
+//#include<stdio.h>
+//int main()
+//{
+//		for (int num_2 = 2; num_2 <= 9; num_2++) {
+//			if (num_2 == 3) continue;
+//			for (int num_1 = 1; num_1 <= 9; num_1++) {
+//				printf("%d x %d = %d\n", num_2, num_1, num_1 * num_2);
+//			}
+//		}
+//		return 0;
+//}
+
+//#include<stdio.h>
+//int main()
+//{
+//	int num_1 =1, num_2=1;
+//	for (num_1 = 1; num_1 <= 4; num_1++) {
+//		for (num_2 = 1; num_2 <= 6; num_2++) {
+//			printf("4면 = %d 6면= %d\n", num_1, num_2);
+//		}
+//	}
+//	return 0;
+//}
+
+/*
+* #inciude<stdio.h>
+* int main()
+* {
+*	int o,i;
+*	for(o=0; o<5; o++){
+*		 
+    }
+* 
+* }
+*/
+
+//#include <stdio.h>
+//int main()
+//{
+//    int outer, inter1, inter2;
+//    for (outer = 0; outer < 5; outer++) {
+//        for (inter1 = 0; inter1 < 5 - outer; inter1++) {
+//            printf(" ");
+//
+//        }
+//        for (inter2 = 1; inter2 < outer + 1; inter2++) {
+//            printf("*");
+//        }
+//        printf("\n");
+//    }
+//    return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//    int outer, inter1, inter2;
+//    for (outer = 0; outer < 5; outer++) {
+//        for (inter1 = 0; inter1 < 5 - outer; inter1++) {
+//            printf(" ");
+//
+//        }
+//        for (inter2 = 0; inter2 < outer + 1; inter2++) {
+//            printf("*");
+//        }
+//        printf("\n");
+//    }
+//    return 0;
+//}
+
+//#include <stdio.h>
+//int main()
+//{
+//   
+//    
+//    int Line=1;
+//    scanf("%d", &Line);
+//    for (int y=1; y <= Line;y++) {
+//        for (int x = 1; x <= y; x++) printf("*");
+//        printf("\n");
+//        
+//    }
+//    return 0;
+//}
+
+//#include <stdio.h>
+//int main()
+//{
+//    int outer = 4;
+//    for (int y = 1; y <= outer; y++) {
+//        for (int x = 4; x >= y; x--) printf("*");
+//        printf("\n");
+//
+//    }
+//    return 0;
+//}
+ 
+
+//#include<stdio.h>
+//int main()
+//{
+//    int Line = 4;
+//    scanf("%d", )
+//        for (int y = 1; y <= Line; y++) {
+//            for (int x = 1; x <= y; x++) printf("*");
+//            printf("\n");
+//    
+//        }
+//        return 0;
+//}
+
+//#include <stdio.h>
+//int main()
+//{
+//    int line=4;
+//    scanf("%d", &line);
+//
+//    for (int y = line; y >= 0; y--) {
+//        for (int i = 1; i <= y; i++) {
+//            printf("*");
+//        }
+//        printf("\n");
+//
+//    }
+//    
+//    
+//    return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//    int b=0;
+//    int line;
+//    scanf("%d", &line);
+//    for (int a = line; a >= 0; a--) {
+//        for (int i = 0; i <= a-1; i++) {
+//            printf(" ");
+//        }
+//        for (int i = 0; i <= b; i++) {
+//            printf("*");
+//        }
+//        printf("\n");
+//        b+=2;
+//    }
+//
+//    
+//   
+//    return 0;
+//
+//}
+#include<stdio.h>
 int main()
 {
-	int i,num,ten, one;
-	for (i = 1; i <= 50; i++) {
-		num = i;
-		ten = num / 10;
-		one = num %= 10;
-		if (ten % 3 == 0 || one % 3 == 0) {
-			
-			if (ten == 0) {
-				if (one % 3 == 0)
-					printf("%d\n", i);
-				else if (i == 10 || i == 20 || i == 40) continue;
-				else continue;
-			}
-			
-		}	
-		
-	}
-	return 0;
+    int line;
+    int b=0;
+    scanf("%d", &line);
+       for (int a = line; a >= 0; a--) {
+        for (int i = 0; i <= a-1; i++) {
+            printf(" ");
+        }
+        for (int i = 0; i <= b; i++) {
+            printf("*");
+        }
+        printf("\n");
+        b+=2;
+    }
+       for (int a = line; a >= 0; a--) {
+           
+           for (int i = 0; i <= b; i++) {
+               printf("*");
+           }
+           for (int i = 0; i <= a - 1; i++) {
+               printf(" ");
+           }
+           printf("\n");
+           b += 2;
+       }
 }
-
