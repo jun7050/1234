@@ -57,10 +57,10 @@
 //};
 //void main()
 //{
-//	struct student s = { 1, (char*)"ÀÌ»ù",90.5 };
-//	printf("¾ÆÀÌµğ: %d\n", s.id);
-//	printf("ÀÌ¸§: %d\n", s.name);
-//	printf("¹éºĞÀ²: %lf\n", s.aver);
+//	struct student s = { 1, (char*)"ì´ìƒ˜",90.5 };
+//	printf("ì•„ì´ë””: %d\n", s.id);
+//	printf("ì´ë¦„: %d\n", s.name);
+//	printf("ë°±ë¶„ìœ¨: %lf\n", s.aver);
 //}
 //#include<stdio.h>
 //struct GUN
@@ -76,9 +76,9 @@
 //};
 //int main() {
 //	struct GUN M416={"M416", 5.56, true,true,true,true,true,30};
-//	printf("È­±â¸í:%s\n", M416.name);
-//	printf("Åº Á¾·ù:%.2f\n", M416.bullet_type);
-//	printf("½ºÄÚÇÁ À¯¹«:%s\n", M416.scope ? "true" : "false");
+//	printf("í™”ê¸°ëª…:%s\n", M416.name);
+//	printf("íƒ„ ì¢…ë¥˜:%.2f\n", M416.bullet_type);
+//	printf("ìŠ¤ì½”í”„ ìœ ë¬´:%s\n", M416.scope ? "true" : "false");
 //	return 0;
 //}
 
@@ -100,9 +100,9 @@ int main()
 	int sizedummy = sizeof(__dummy__);
 	int sizevip = sizeof(VIP_PERSON);
 	VIP_PERSON lee_sam;
-	printf("´õ¹Ì Å©±â: %d\n", sizedummy);
-	printf("vipÁ¤º¸ Å©±â: %d\n", sizevip);
-	printf("°í°´ÀÇ µî±ŞÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä");
+	printf("ë”ë¯¸ í¬ê¸°: %d\n", sizedummy);
+	printf("vipì •ë³´ í¬ê¸°: %d\n", sizevip);
+	printf("ê³ ê°ì˜ ë“±ê¸‰ì„ ì…ë ¥í•´ì£¼ì„¸ìš”");
 	while (true) {
 		scanf("%c", &lee_sam.grade);
 		if()
